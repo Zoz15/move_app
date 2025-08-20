@@ -245,33 +245,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   height: 200,
                                   child: Text('Error loading popular data'))
                               : PopularIs(popular_movies: popular_movies),
-                          // Padding(
-                          //   padding: const EdgeInsets.symmetric(
-                          //       horizontal: 30, vertical: 20),
-                          //   child: Row(
-                          //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          //     children: [
-                          //       Text(
-                          //         x,
-                          //         style: kLarg,
-                          //       ),
-                          //       InkWell(
-                          //         onTap: () {
-                          //           Navigator.push(
-                          //             context,
-                          //             MaterialPageRoute(
-                          //                 builder: (context) =>
-                          //                     const Sepopular()),
-                          //           );
-                          //         },
-                          //         child: Text(
-                          //           'See all',
-                          //           style: kseeall,
-                          //         ),
-                          //       ),
-                          //     ],
-                          //   ),
-                          // ),
+                       
                           PaddingBetwn(
                               x: 'Pupular',
                               onpresed: () {
